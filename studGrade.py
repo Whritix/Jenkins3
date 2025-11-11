@@ -10,13 +10,13 @@ if len(sys.argv) == 3:
     mark5 = sys.argv[6]
     print("User provided input values:")
 else:
-    name = "Srujan"
-    rollno = "42"
-    mark1 = "35"
-    mark2 = "35"
-    mark3= "35"
-    mark4 = "35"
-    mark5 = "35"
+    name = "Aditya"
+    rollno = "43"
+    mark1 = "50"
+    mark2 = "50"
+    mark3= "50"
+    mark4 = "50"
+    mark5 = "50"
     print("No input given, using default values:")
 
 total = int(mark1) + int(mark2) + int(mark3) + int(mark4) + int(mark5)
