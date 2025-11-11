@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) == 3:
+if len(sys.argv) == 7:
     name = sys.argv[0]
     rollno = sys.argv[1]
     mark1 = sys.argv[2]
