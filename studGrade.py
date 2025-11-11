@@ -11,6 +11,7 @@ if len(sys.argv) == 8:
     mark5 = sys.argv[7]
     print("User provided input values:")
 else:
+    script_name = sys.argv[0]
     name = "Aditya"
     rollno = "43"
     mark1 = "50"
@@ -23,6 +24,7 @@ else:
 total = int(mark1) + int(mark2) + int(mark3) + int(mark4) + int(mark5)
 average = total / 5 
 
+print("Script Name:", script_name)
 print(" Name:", name)
 print("Rollno:", rollno)
 print("Subject 1 marks :", mark1)
