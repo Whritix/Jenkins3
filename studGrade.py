@@ -32,11 +32,11 @@ print("Subject 5 marks :", mark5)
 print("Total Marks:", total)
 print("Average Marks:", average)
 
-if (total > 85):
+if (total > 400):
     print(" Grade: A")
-elif (total > 70):
+elif (total > 300):
     print(" Grade: B")
-elif (total > 50):
+elif (total > 200):
     print(" Grade: C")  
 else:
     print(" Grade: F")
