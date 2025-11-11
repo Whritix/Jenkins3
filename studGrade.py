@@ -1,13 +1,14 @@
 import sys
 
-if len(sys.argv) == 7:
-    name = sys.argv[0]
-    rollno = sys.argv[1]
-    mark1 = sys.argv[2]
-    mark2 = sys.argv[3]
-    mark3= sys.argv[4]
-    mark4 = sys.argv[5]
-    mark5 = sys.argv[6]
+if len(sys.argv) == 8:
+    script_name = sys.argv[0]
+    name = sys.argv[1]
+    rollno = sys.argv[2]
+    mark1 = sys.argv[3]
+    mark2 = sys.argv[4]
+    mark3= sys.argv[5]
+    mark4 = sys.argv[6]
+    mark5 = sys.argv[7]
     print("User provided input values:")
 else:
     name = "Aditya"
